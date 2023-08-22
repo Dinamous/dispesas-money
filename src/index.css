@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+      @apply bg-bg;
+      color:white;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    body,input,textarea,button {
+        @apply font-roboto;
+        @apply font-normal;
+        @apply text-base
+    }
+  }
+
