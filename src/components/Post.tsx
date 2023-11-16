@@ -4,7 +4,7 @@ export default function Post() {
     <article className="bg-lightGray rounded-lg p-10">
         <header className="flex items-center justify-between">
             <div className="flex items-center gap-4">
-            <img src="https://github.com/diego3g.png" className=" w-16 h-16 rounded-lg border border-4 border-gray-800 outline outline-2 outline-green"/>
+            <img src="https://github.com/diego3g.png" className=" w-10 h-10 rounded-lg border border-4 border-gray-800 outline outline-2 outline-green"/>
                 <div className="flex flex-col">
                     <strong>Diego Fernandes</strong>
                     <span className="text-gray-400 text-sm">Web Developer</span>
