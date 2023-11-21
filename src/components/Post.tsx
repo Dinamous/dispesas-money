@@ -22,6 +22,15 @@ export default function Post() {
                 <a href="" className="font-bold text-green hover:text-green-300"> #rocketseat</a>
             </p>
         </div>
+
+        <form className="mt-6 pt-6 border-t border-gray-600 w-100">
+            <strong className="leading-6 text-gray-100 ">Deixe seu comentário</strong>
+            <textarea className="w-full mt-4 bg-gray-950 border-0 resize-none h-24 p-4 rounded-lg text-gray-100 leading-4 "
+                placeholder="Deixe um comentário"></textarea>
+                <button type="submit" 
+                    className="py-4 px-6 mt-4 rounded-lg bg-green-500 hover:bg-green-300 font-bold cursor-pointer transition-all"
+                >Comentar</button>
+        </form>
     </article>
   )
 }

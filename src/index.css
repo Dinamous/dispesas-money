@@ -7,6 +7,8 @@
       @apply bg-bg;
       color:white;
       -webkit-font-smoothing: antialiased;
+      outline: transparent;
+      box-shadow: 0 0 0 2px 
     }
 
     body,input,textarea,button {
